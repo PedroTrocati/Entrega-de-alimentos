@@ -19,11 +19,11 @@ let introComplete = false;
 let lastCharTime = 0;
 
 function preload() {
-  fazendeiroImg = loadImage("fazendeiro.png");
+  fazendeiroImg = loadImage("img/fazendeiro.png");
   caminhaoImg = loadImage("img/caminhao.png");
-  estradaImg = loadImage("fazenda.png");
-  cidadeImg = loadImage("cidade.png");
-  mercadoImg = loadImage("mercado.png");
+  estradaImg = loadImage("img/fazenda.png");
+  cidadeImg = loadImage("img/cidade.png");
+  mercadoImg = loadImage("img/mercado.png");
 }
 
 function setup() {
