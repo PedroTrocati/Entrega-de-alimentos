@@ -20,7 +20,7 @@ let lastCharTime = 0;
 
 function preload() {
   fazendeiroImg = loadImage("fazendeiro.png");
-  caminhaoImg = loadImage("caminhao.png");
+  caminhaoImg = loadImage("img/caminhao.png");
   estradaImg = loadImage("fazenda.png");
   cidadeImg = loadImage("cidade.png");
   mercadoImg = loadImage("mercado.png");
