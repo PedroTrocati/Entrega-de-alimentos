@@ -89,7 +89,7 @@ function draw() {
     image(mercadoImg, 0, 0, width, height);
     fill(0);
     textSize(28);
-    text("🛒 Verificando os alimentos entregues...", width / 2, 60);
+    text("🛒 Verificando os alimentos entregues...", width / 2, 80);
     let yBase = 150;
     for (let i = 0; i < alimentos.length; i++) {
       let alimento = alimentos[i];
@@ -99,7 +99,7 @@ function draw() {
                     alimento.nome === "Tomate" ? "🍅" :
                     alimento.nome === "Batata" ? "🥔" : "❓";
         textSize(26);
-        text(`${emoji} ${alimento.nome} entregue com sucesso!`, width / 2, yBase + i * 40);
+        text(`${emoji} ${alimento.nome} entregue com sucesso!`, width / 2, yBase + i * 60);
       }
     }
     if (frameCount % 60 < 30) {
